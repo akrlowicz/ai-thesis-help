@@ -21,7 +21,7 @@ python multidoc_agent.py
 ```
 
 
-# Use cases/capabilties
+# Use cases
 
 This system allows you to gain information based on your dumped papers. Example queries:
 
@@ -44,14 +44,13 @@ This system allows you to gain information based on your dumped papers. Example 
 
 
 
-# Limitations
-
-With growing number of papers it will become slower. Tool routing is implemented to aid in this shortcoming. 
-
-# Future work
+# Future work and limitations
 
 Would be nice if there is possibility to integrate with Zotero to import papers, provide some interface and query the file by the paper title instead of file name.
-Possibly to test open-source models e.g. llama2/3 provided by Ollama
+Possibly to test open-source models e.g. llama2/3 provided by Ollama.
+With growing number of papers it will become slower.
 
+
+The file `simple_agent.py` is a baseline without routing between the papers.
 
 
